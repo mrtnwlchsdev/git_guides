@@ -88,3 +88,8 @@ Listar las ramas del proyecto
 Crear una nueva rama
 
     $ git branch <branch_name>
+
+Pasar de una rama a otra
+
+    $ git checkout <brnach_name>
+
