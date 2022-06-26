@@ -91,5 +91,13 @@ Crear una nueva rama
 
 Pasar de una rama a otra
 
-    $ git checkout <brnach_name>
+    $ git checkout <branch_name>
 
+Integrar una rama secundaria con la rama principal
+
+    $ git checkout main
+    $ git merge <branch_name>
+
+Eliminar una rama
+
+    $ git branch -d <branch_name>
